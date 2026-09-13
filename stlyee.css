@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f7f1f8;
+}
+
+.div-externo {
+    width: 450px;
+    height: 450px;
+    background-color: #c8b6e9;
+    border-radius: 18px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.div-interno {
+    width: 225px;
+    height: 225px;
+    background-color: #f7aaa8;
+    border-radius: 18px;
+}
